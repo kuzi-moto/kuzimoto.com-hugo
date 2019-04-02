@@ -1,2 +1,5 @@
 # kuzimoto.com-hugo
-Source files for my site, kuzimoto.com, using the [Hugo framework](https://gohugo.io/)
+
+My site: kuzimoto.com. Built using [Hugo static site generator](https://gohugo.io/). Custom theme using [HTML5 Boilerplate](https://html5boilerplate.com/) as the base.
+
+## Notes

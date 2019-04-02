@@ -1,0 +1,7 @@
+baseURL = "http://kuzimoto.com/"
+languageCode = "en-us"
+title = "Kuzi's Blog"
+defaultContentLanguage = "en"
+
+MetaDataFormat = "toml"
+enableGitInfo = true
