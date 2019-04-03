@@ -2,6 +2,10 @@ baseURL = "http://kuzimoto.com/"
 languageCode = "en-us"
 title = "Kuzi's Blog"
 defaultContentLanguage = "en"
-
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
 MetaDataFormat = "toml"
 enableGitInfo = true
+theme = "kuzimoto"
