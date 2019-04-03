@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>
+{{ define "main" }}
   {{ range .Data.Pages }}
     <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
   {{ end }}
-</body>
-</html>
+{{ end }}

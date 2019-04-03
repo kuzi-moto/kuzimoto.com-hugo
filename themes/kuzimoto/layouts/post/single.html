@@ -1,7 +1,5 @@
-{{ partial "header.html" }}
-
+{{ define "main" }}
   <h1>{{ .Title }}</h1>
   <h2>{{ .Date.Format "02 Jan 2006" }}</h2>
   {{ .Content }}
-
-{{ partial "footer.html" }}
+{{ end }}
