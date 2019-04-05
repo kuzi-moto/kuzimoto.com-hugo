@@ -1,6 +1,6 @@
 baseURL = "http://kuzimoto.com/"
 languageCode = "en-us"
-title = "Kuzi's Blog"
+title = "kuzi's Weblog"
 defaultContentLanguage = "en"
 [languages]
   [languages.en]
