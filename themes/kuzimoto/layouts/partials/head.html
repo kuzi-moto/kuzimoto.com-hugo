@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  {{ if not .Site.IsServer }}
   <!-- Matomo -->
   <script type="text/javascript">
     var _paq = window._paq || [];
@@ -33,4 +34,5 @@
     })();
   </script>
   <!-- End Matomo Code -->
+  {{ end }}
 </head>
