@@ -9,3 +9,6 @@ defaultContentLanguage = "en"
 MetaDataFormat = "toml"
 enableGitInfo = true
 theme = "kuzimoto"
+[params]
+  author = "Kuzma Fesenko"
+  description = "The personal blog of Kuzma Fesenko."

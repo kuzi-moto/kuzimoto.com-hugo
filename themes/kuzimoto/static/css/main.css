@@ -122,26 +122,51 @@ body {
   color: #839496;
 }
 
-a:link {
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
   color: #268bd2;
 }
 
-a:visited {
-  color: #6c71c4;
+a:hover {
+  text-decoration: underline;
 }
-
-a:active {}
 
 hr {
   border-top: 1px solid #839496;
 }
 
-ul {
-  list-style-type: none;
+header {
+  background: #073642;
 }
 
-.header {
+header > h1 {
+  margin: 0 0 .25em 0;
   text-align: center;
+}
+
+header li:hover,a:hover {
+  text-decoration: none;
+  background-color: #002b36;
+}
+
+header > nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+header > nav > ul > li {
+  display: inline;
+  padding: .25em .5em .5em .5em;
+  border-style: none;
+  border-width: 1px;
+  border-radius: 5px 5px 0 0;
+  border-color: #839496;
 }
 
 /* ==========================================================================

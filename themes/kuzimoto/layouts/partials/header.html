@@ -1,12 +1,10 @@
-<div class="header">
+<header>
   <h1>{{ .Site.Title }}</h1>
-</div>
-<nav class="top-menu">
-  <ul>
-  {{ range .Data.Pages }}
-  {{ if eq .Type "page" }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-  {{ end }}
-  {{ end }}
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      {{ range where .Site.Pages "Type" "page" -}}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{- end }}
+    </ul>
+  </nav>
+</header>
