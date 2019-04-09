@@ -136,6 +136,10 @@ hr {
   border-top: 1px solid #839496;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header {
   text-align: center;
 }
