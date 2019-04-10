@@ -2,8 +2,13 @@
   <h1>{{ .Site.Title }}</h1>
   <nav>
     <ul>
-      {{ range where .Site.Pages "Type" "page" -}}
+      <!-- {{ range where .Site.Pages "Type" "page" -}}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{- end }} -->
+
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main -}}
+      <li><a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>
       {{- end }}
     </ul>
   </nav>

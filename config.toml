@@ -1,6 +1,6 @@
 baseURL = "http://kuzimoto.com/"
 languageCode = "en-us"
-title = "kuzi's Blog"
+title = "Kuzma's Blog"
 defaultContentLanguage = "en"
 [languages]
   [languages.en]
@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
     weight = 1
 MetaDataFormat = "toml"
 enableGitInfo = true
+sectionPagesMenu = "main"
 theme = "kuzimoto"
 [params]
   author = "Kuzma Fesenko"
