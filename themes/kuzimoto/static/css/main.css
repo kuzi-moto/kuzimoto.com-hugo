@@ -177,12 +177,13 @@ header > nav > ul > li {
 
 #content {
   padding: 0 1em;
+  max-width: 960px;
 }
 
 #content h1,h2,h3,h4,h5,h6 {
-  text-align: center;
+  text-align: left;
   margin: .5em 0;
-  letter-spacing: .06em;
+  letter-spacing: 0.04em;
 }
 
 #content h1 {
